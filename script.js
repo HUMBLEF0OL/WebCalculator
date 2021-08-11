@@ -49,13 +49,13 @@ for(var i=0;i<buttons.length;i++)
             // convert the sign
             op1 = parseFloat(text);
             op1 = -1*op1;
-            output.textContent(op1);
+            output.textContent = op1;
         }
         else if(value == '%')
         {
             op1 = parseFloat(text);
             op1 = op1/100;
-            output.textContent(op1);
+            output.textContent = op1;
         }
         else if(value=="=")
         {
